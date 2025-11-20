@@ -10,10 +10,10 @@ def createGraph(V, edges):
     return mat
 
 if __name__ == "__main__":
-    V = 3
+    V = 4
 
     # List of edges (u, v)
-    edges = [[1, 0], [2, 0], [1, 2]]
+    edges = [[1, 0], [2, 0], [1, 2], [0, 3]]
 
     # Build the graph using edges
     mat = createGraph(V, edges)
@@ -22,4 +22,5 @@ if __name__ == "__main__":
     for i in range(V):
         for j in range(V):
             print(mat[i][j], end=" ")
+
         print()
