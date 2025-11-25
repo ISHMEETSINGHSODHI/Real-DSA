@@ -20,7 +20,7 @@ constructor(){
     if (this.isEmpty()) {
         this.root = newNode
     } else {
-        this.insertNode(this.root,neweNode)
+        this.insertNode(this.root,newNode)
     }
  } 
 
@@ -47,3 +47,4 @@ bst.insert(10);
 bst.insert(26);
 bst.insert(580);
 bst.insert(21);
+
