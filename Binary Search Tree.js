@@ -44,5 +44,6 @@ const bst = new BinarySearchTree();
 console.log('Tree is empty ?' , bst.isEmpty()); // true
  
 bst.insert(10);
-bst.insert(26)
-bst.insert(580)
+bst.insert(26);
+bst.insert(580);
+bst.insert(21);
