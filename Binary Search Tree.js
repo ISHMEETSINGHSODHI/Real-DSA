@@ -1,4 +1,4 @@
-// Take numbers one-by-one from the user and insert them into the tree BST //
+unable to print results trash // Take numbers one-by-one from the user and insert them into the tree BST //
 
 class Node {
     constructor(value) {
@@ -47,4 +47,5 @@ bst.insert(10);
 bst.insert(26);
 bst.insert(580);
 bst.insert(21);
+
 
